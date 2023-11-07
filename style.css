@@ -72,7 +72,7 @@ button{
   font-weight: bold;
   border: 2px solid #009688;
   backgrounf: transparent;
-  color: #fff;
+  color: #000;
   cursor: pointer;
   position: relative;
   overflow: hidden;
@@ -93,4 +93,58 @@ button:hover span{
 }
 button:hover{
   border: none;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f9f9f9;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  height: 50px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px;
+}
+
+nav ul li a:hover {
+  color: #ff6347;
+}
+
+section {
+  padding: 20px;
+}
+
+section h2 {
+  color: #333;
+}
+
+footer {
+  background-color: #f9f9f9;
+  padding: 10px;
+  text-align: center;
+  font-size: 12px;
+  color: #777;
 }
